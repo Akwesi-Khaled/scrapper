@@ -14,7 +14,7 @@ search_btn = st.button("Search")
 
 # Config / secrets
 RAPIDAPI_KEY = os.getenv("RAPIDAPI_KEY")  # set in your environment or Streamlit secrets
-RAPIDAPI_HOST = os.getenv("RAPIDAPI_HOST", "website-contactcrawler.p.rapidapi.com")
+RAPIDAPI_HOST = os.getenv("RAPIDAPI_HOST", "email-scraper.p.rapidapi.com")
 # NOTE: If the API you subscribed to uses a different host string, replace it in your environment.
 
 # Helper to call RapidAPI endpoint
