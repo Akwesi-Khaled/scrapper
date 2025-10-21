@@ -36,7 +36,7 @@ def call_contact_api(target):
         "Accept": "application/json",
     }
     params = {
-        "url": target  # many contact-scraper APIs accept 'url' or 'domain' param — check the playground
+        "https://en.wikipedia.org/wiki/Email": target  # many contact-scraper APIs accept 'url' or 'domain' param — check the playground
     }
 
     resp = requests.get(url, headers=headers, params=params, timeout=30)
